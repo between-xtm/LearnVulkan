@@ -7,22 +7,9 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		57225DAAE7CE4D158E3EA137 /* ALL_BUILD */ = {
+		965DA3291A304EDAB526127C /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 3C6C6038B0744C3E9B60AC37 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
-			buildPhases = (
-				94AA7E9886901DBD65B84FA9 /* Generate CMakeFiles/ALL_BUILD */,
-			);
-			dependencies = (
-				E07E14F7A7D24C409060767F /* PBXTargetDependency */,
-				67C704FC1667417B96627A15 /* PBXTargetDependency */,
-			);
-			name = ALL_BUILD;
-			productName = ALL_BUILD;
-		};
-		B2E8D481755A4D80BFC2026F /* ZERO_CHECK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 9608C0E6D58F43F4899FC0BA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 2C4B51CB21324371BCD83AA5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				CDEC9CF554A51F2FD5290DAE /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -31,77 +18,90 @@
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
+		E0E52ED8EBBA4EE39004D658 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2B78081A31AD4132A3986385 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				94AA7E9886901DBD65B84FA9 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				F340D2C7F8F746B1AA0F9E62 /* PBXTargetDependency */,
+				69A605CE0361471C861EFDCB /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		519D0B11DBA844958B41BA65 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A02A7CEED33442F089B623D3 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/CMakeLists.txt */; };
-		9C2557A06FEE4A6CA303FC8D /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/LearnVulkan_3/main.cpp */ = {isa = PBXBuildFile; fileRef = C89B071C1C094EDAA479BDB1 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/LearnVulkan_3/main.cpp */; };
+		03B3CEF053D047A592F7CF87 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/LearnVulkan_3/main.cpp */ = {isa = PBXBuildFile; fileRef = BEAE1F08D5FF40B3ABBEC819 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/LearnVulkan_3/main.cpp */; };
+		C0558EFE0A7046AD8F37107E /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CCCAE3A731624C51A63C0A39 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/CMakeLists.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		2949976D936B4BFA86F923DE /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		309737C2AB9B4D63A95896D3 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		7D8FBEFF11734F9AA9C4B539 /* RelWithDebInfo */ = {
+		093CDD2FF5554C01BFEC687D /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		BAB16D375D38459F8B12C9A7 /* Release */ = {
+		AF0D59CCC5FF457DA37244EE /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		B25621963FCC424BA1F3913A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		BA1A4D59963C48C3B8CAA93B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		442079A553634B2790ADD22D /* PBXContainerItemProxy */ = {
+		09445BA4916049A18AE772CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 578F5A71DF0D4B3BBF8AB41A /* Project object */;
+			containerPortal = 1B7CFA5400D1469988CC3986 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 75E5DAF5287841709EFCA224;
-			remoteInfo = LearnVulkan_3;
-		};
-		98C4C258738C46B48DDF964B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 578F5A71DF0D4B3BBF8AB41A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2E8D481755A4D80BFC2026F;
+			remoteGlobalIDString = 965DA3291A304EDAB526127C;
 			remoteInfo = ZERO_CHECK;
 		};
-		A25B7C0838E54020AE73674A /* PBXContainerItemProxy */ = {
+		A09172078EAC4AC98E48235D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 578F5A71DF0D4B3BBF8AB41A /* Project object */;
+			containerPortal = 1B7CFA5400D1469988CC3986 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B2E8D481755A4D80BFC2026F;
+			remoteGlobalIDString = 6111B3EBA30C4E4DABBEE83C;
+			remoteInfo = LearnVulkan_3;
+		};
+		CD26DF29B16944F18593A017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B7CFA5400D1469988CC3986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965DA3291A304EDAB526127C;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37721F9238CF443DBA31AC3F /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		8AE2AE8CA4F44F0983E876C5 /* LearnVulkan_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = LearnVulkan_3; sourceTree = BUILT_PRODUCTS_DIR; };
-		A02A7CEED33442F089B623D3 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		C89B071C1C094EDAA479BDB1 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/LearnVulkan_3/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = LearnVulkan_3/main.cpp; sourceTree = SOURCE_ROOT; };
+		54E16C8E861144A5BF1A5672 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		714AB537DB3546F0862CC947 /* LearnVulkan_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = LearnVulkan_3; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAE1F08D5FF40B3ABBEC819 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/LearnVulkan_3/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = LearnVulkan_3/main.cpp; sourceTree = SOURCE_ROOT; };
+		CCCAE3A731624C51A63C0A39 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E0EFE744DB44005BDAB378D /* Frameworks */ = {
+		FF8B9397CDF74177A38288FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -111,111 +111,111 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B586D3B448B4370AEEF3866 = {
+		1A41BD2D4A31448EA53D66EA /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				DCF7CC8687994916858B71DC /* LearnVulkan_3 */,
-				DDE8736B8E22427E97DB80A3 /* ALL_BUILD */,
-				A160654D8DB9454086E7B254 /* Products */,
-				D5D2ACF7B01B431BA50AD542 /* Frameworks */,
+				BEAE1F08D5FF40B3ABBEC819 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/LearnVulkan_3/main.cpp */,
 			);
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		A160654D8DB9454086E7B254 /* Products */ = {
+		22A29A79C82D44A197232E11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8AE2AE8CA4F44F0983E876C5 /* LearnVulkan_3 */,
+				714AB537DB3546F0862CC947 /* LearnVulkan_3 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5D2ACF7B01B431BA50AD542 /* Frameworks */ = {
+		2A090F438CC8417D8DF7CD01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DCF7CC8687994916858B71DC /* LearnVulkan_3 */ = {
+		55E4A285DD454661A49FF3C0 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				F0699680972449DD94AABAE3 /* Source Files */,
-				A02A7CEED33442F089B623D3 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/CMakeLists.txt */,
-			);
-			name = LearnVulkan_3;
-			sourceTree = "<group>";
-		};
-		DDE8736B8E22427E97DB80A3 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				ED383BF9EEB14047B5FA8C0E /* CMake Rules */,
-				37721F9238CF443DBA31AC3F /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/CMakeLists.txt */,
+				A9D9486D2D9944258337D2B1 /* CMake Rules */,
+				54E16C8E861144A5BF1A5672 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		ED383BF9EEB14047B5FA8C0E /* CMake Rules */ = {
+		970295E18DDA47C9BD19410A /* LearnVulkan_3 */ = {
+			isa = PBXGroup;
+			children = (
+				1A41BD2D4A31448EA53D66EA /* Source Files */,
+				CCCAE3A731624C51A63C0A39 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/CMakeLists.txt */,
+			);
+			name = LearnVulkan_3;
+			sourceTree = "<group>";
+		};
+		9AB1CA53C2C64F9D9308DDC8 = {
+			isa = PBXGroup;
+			children = (
+				970295E18DDA47C9BD19410A /* LearnVulkan_3 */,
+				55E4A285DD454661A49FF3C0 /* ALL_BUILD */,
+				22A29A79C82D44A197232E11 /* Products */,
+				2A090F438CC8417D8DF7CD01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D9486D2D9944258337D2B1 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		F0699680972449DD94AABAE3 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				C89B071C1C094EDAA479BDB1 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/LearnVulkan_3/main.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		75E5DAF5287841709EFCA224 /* LearnVulkan_3 */ = {
+		6111B3EBA30C4E4DABBEE83C /* LearnVulkan_3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D94707D68BB46D8B348E424 /* Build configuration list for PBXNativeTarget "LearnVulkan_3" */;
+			buildConfigurationList = 6F6D230DAF2942A3A830E8B0 /* Build configuration list for PBXNativeTarget "LearnVulkan_3" */;
 			buildPhases = (
-				B9801062B87F4F24A85A5C6E /* Sources */,
-				4E0EFE744DB44005BDAB378D /* Frameworks */,
+				11335FA166F94DB6A6155C41 /* Sources */,
+				FF8B9397CDF74177A38288FC /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				49C534A8F27F45D7BFB288DF /* PBXTargetDependency */,
+				8C9E300ED1324E218679DAC8 /* PBXTargetDependency */,
 			);
 			name = LearnVulkan_3;
 			productName = LearnVulkan_3;
-			productReference = 8AE2AE8CA4F44F0983E876C5 /* LearnVulkan_3 */;
+			productReference = 714AB537DB3546F0862CC947 /* LearnVulkan_3 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		578F5A71DF0D4B3BBF8AB41A /* Project object */ = {
+		1B7CFA5400D1469988CC3986 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1530;
 			};
-			buildConfigurationList = 1108823EA3294855AC4B19A0 /* Build configuration list for PBXProject "LearnVulkan_3" */;
+			buildConfigurationList = E9F7DDDD55464A9786E27D02 /* Build configuration list for PBXProject "LearnVulkan_3" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				2949976D936B4BFA86F923DE /* Debug */,
-				BAB16D375D38459F8B12C9A7 /* Release */,
-				309737C2AB9B4D63A95896D3 /* MinSizeRel */,
-				7D8FBEFF11734F9AA9C4B539 /* RelWithDebInfo */,
+				BA1A4D59963C48C3B8CAA93B /* Debug */,
+				AF0D59CCC5FF457DA37244EE /* Release */,
+				B25621963FCC424BA1F3913A /* MinSizeRel */,
+				093CDD2FF5554C01BFEC687D /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 1B586D3B448B4370AEEF3866;
+			mainGroup = 9AB1CA53C2C64F9D9308DDC8;
 			projectDirPath = .;
 			projectRoot = "";
 			targets = (
-				57225DAAE7CE4D158E3EA137 /* ALL_BUILD */,
-				75E5DAF5287841709EFCA224 /* LearnVulkan_3 */,
-				B2E8D481755A4D80BFC2026F /* ZERO_CHECK */,
+				E0E52ED8EBBA4EE39004D658 /* ALL_BUILD */,
+				6111B3EBA30C4E4DABBEE83C /* LearnVulkan_3 */,
+				965DA3291A304EDAB526127C /* ZERO_CHECK */,
 			);
 		};
 /* End PBXProject section */
@@ -320,36 +320,36 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B9801062B87F4F24A85A5C6E /* Sources */ = {
+		11335FA166F94DB6A6155C41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C2557A06FEE4A6CA303FC8D /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/LearnVulkan_3/main.cpp */,
+				03B3CEF053D047A592F7CF87 /* /Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/LearnVulkan_3/main.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		49C534A8F27F45D7BFB288DF /* PBXTargetDependency */ = {
+		69A605CE0361471C861EFDCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B2E8D481755A4D80BFC2026F /* ZERO_CHECK */;
-			targetProxy = A25B7C0838E54020AE73674A /* PBXContainerItemProxy */;
+			target = 965DA3291A304EDAB526127C /* ZERO_CHECK */;
+			targetProxy = CD26DF29B16944F18593A017 /* PBXContainerItemProxy */;
 		};
-		67C704FC1667417B96627A15 /* PBXTargetDependency */ = {
+		8C9E300ED1324E218679DAC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B2E8D481755A4D80BFC2026F /* ZERO_CHECK */;
-			targetProxy = 98C4C258738C46B48DDF964B /* PBXContainerItemProxy */;
+			target = 965DA3291A304EDAB526127C /* ZERO_CHECK */;
+			targetProxy = 09445BA4916049A18AE772CE /* PBXContainerItemProxy */;
 		};
-		E07E14F7A7D24C409060767F /* PBXTargetDependency */ = {
+		F340D2C7F8F746B1AA0F9E62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 75E5DAF5287841709EFCA224 /* LearnVulkan_3 */;
-			targetProxy = 442079A553634B2790ADD22D /* PBXContainerItemProxy */;
+			target = 6111B3EBA30C4E4DABBEE83C /* LearnVulkan_3 */;
+			targetProxy = A09172078EAC4AC98E48235D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		288F8045E85F44BAA075C48F /* MinSizeRel */ = {
+		234E94E02F9B48E2854E0E9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -357,242 +357,9 @@ fi
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
 				SYMROOT = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/build";
 			};
-			name = MinSizeRel;
-		};
-		37CD078FF6B04934AE462A2E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
 			name = Debug;
 		};
-		39589EA4610F40AD8D27E685 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
-				SYMROOT = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/build";
-			};
-			name = Release;
-		};
-		3AFB2C54743A4485BE26C5F8 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		51E5FE4F4C9241D5B510FED2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		7EF7C4E3DC4D4FE394506036 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		97AE9D295BD44D7CAA6A2F98 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		9D52C8A04AD5400E944DE260 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/Release";
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/include,/opt/homebrew/Cellar/glm/0.9.9.8/include/glm,/opt/homebrew/Cellar/glfw/3.3.8/include/GLFW,"$(inherited)");
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = ("/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib /opt/homebrew/Cellar/glfw/3.3.8/lib","$(inherited)");
-				LIBRARY_SEARCH_PATHS = ("/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib,"/opt/homebrew/Cellar/glfw/3.3.8/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/opt/homebrew/Cellar/glfw/3.3.8/lib,"$(inherited)");
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/libvulkan.dylib,/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/libvulkan.1.dylib,/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/libMoltenVK.dylib,/opt/homebrew/Cellar/glfw/3.3.8/lib/libglfw.dylib,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = LearnVulkan_3;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/build/LearnVulkan_3.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		A15CF3BF5EAD44B3AF7AD99A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/Debug";
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/include,/opt/homebrew/Cellar/glm/0.9.9.8/include/glm,/opt/homebrew/Cellar/glfw/3.3.8/include/GLFW,"$(inherited)");
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = ("/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib /opt/homebrew/Cellar/glfw/3.3.8/lib","$(inherited)");
-				LIBRARY_SEARCH_PATHS = ("/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib,"/opt/homebrew/Cellar/glfw/3.3.8/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/opt/homebrew/Cellar/glfw/3.3.8/lib,"$(inherited)");
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "   ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/libvulkan.dylib,/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/libvulkan.1.dylib,/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/libMoltenVK.dylib,/opt/homebrew/Cellar/glfw/3.3.8/lib/libglfw.dylib,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = LearnVulkan_3;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/build/LearnVulkan_3.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		A5F005468D8543FA8CEF38E8 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/MinSizeRel";
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/include,/opt/homebrew/Cellar/glm/0.9.9.8/include/glm,/opt/homebrew/Cellar/glfw/3.3.8/include/GLFW,"$(inherited)");
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = ("/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib /opt/homebrew/Cellar/glfw/3.3.8/lib","$(inherited)");
-				LIBRARY_SEARCH_PATHS = ("/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib,"/opt/homebrew/Cellar/glfw/3.3.8/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/opt/homebrew/Cellar/glfw/3.3.8/lib,"$(inherited)");
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/libvulkan.dylib,/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/libvulkan.1.dylib,/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/libMoltenVK.dylib,/opt/homebrew/Cellar/glfw/3.3.8/lib/libglfw.dylib,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = LearnVulkan_3;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/build/LearnVulkan_3.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		A6125A4310C1410F8BDFAA76 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
-				SYMROOT = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/build";
-			};
-			name = RelWithDebInfo;
-		};
-		B800A47D4F7E47DCB48ED8EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		C6CAE162983F4945AD6734F6 /* MinSizeRel */ = {
+		2D758067143048B3A17F7E73 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -613,17 +380,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		EB0043F20AF24E25A38924A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
-				SYMROOT = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/build";
-			};
-			name = Debug;
-		};
-		EB18AD5488734B1ABDF2663C /* RelWithDebInfo */ = {
+		4F569E6E6BAE46888C58F6D0 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -636,13 +393,12 @@ fi
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/include,/opt/homebrew/Cellar/glm/0.9.9.8/include/glm,/opt/homebrew/Cellar/glfw/3.3.8/include/GLFW,"$(inherited)");
+				HEADER_SEARCH_PATHS = (/usr/local/include,/opt/homebrew/Cellar/glm/0.9.9.8/include/glm,/opt/homebrew/Cellar/glfw/3.3.8/include/GLFW,"$(inherited)");
 				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = ("/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib /opt/homebrew/Cellar/glfw/3.3.8/lib","$(inherited)");
-				LIBRARY_SEARCH_PATHS = ("/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib,"/opt/homebrew/Cellar/glfw/3.3.8/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/opt/homebrew/Cellar/glfw/3.3.8/lib,"$(inherited)");
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/libvulkan.dylib,/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/libvulkan.1.dylib,/Users/bianchenyu/VulkanSDK/1.3.280.0/macOS/lib/libMoltenVK.dylib,/opt/homebrew/Cellar/glfw/3.3.8/lib/libglfw.dylib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libvulkan.dylib,/usr/local/lib/libMoltenVK.dylib,/opt/homebrew/Cellar/glfw/3.3.8/lib/libglfw.dylib,"$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = LearnVulkan_3;
 				SECTORDER_FLAGS = "";
@@ -652,7 +408,49 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		F8315BB6C19F4C59B346DE91 /* RelWithDebInfo */ = {
+		77027AA601264AFDA54B5BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		779E1A070D714AEF8626D414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		78F01B5E6CA945B9BF7FB337 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -673,54 +471,252 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
+		804B9B8E86E64130B01BEF39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/opt/homebrew/Cellar/glm/0.9.9.8/include/glm,/opt/homebrew/Cellar/glfw/3.3.8/include/GLFW,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libvulkan.dylib,/usr/local/lib/libMoltenVK.dylib,/opt/homebrew/Cellar/glfw/3.3.8/lib/libglfw.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LearnVulkan_3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/build/LearnVulkan_3.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		843B881DE7EC4F28BBCC08AC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8B0D1862FF8A42FDB6B7E2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/opt/homebrew/Cellar/glm/0.9.9.8/include/glm,/opt/homebrew/Cellar/glfw/3.3.8/include/GLFW,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libvulkan.dylib,/usr/local/lib/libMoltenVK.dylib,/opt/homebrew/Cellar/glfw/3.3.8/lib/libglfw.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LearnVulkan_3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/build/LearnVulkan_3.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9798D924F93A4C0EBCE5F3CF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A958B20AC5684C0EBFBCC700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C7D58FD65DBD49E1A4EEDA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SYMROOT = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/build";
+			};
+			name = Release;
+		};
+		C8E9B3895E754F4F801A948D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/opt/homebrew/Cellar/glm/0.9.9.8/include/glm,/opt/homebrew/Cellar/glfw/3.3.8/include/GLFW,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libvulkan.dylib,/usr/local/lib/libMoltenVK.dylib,/opt/homebrew/Cellar/glfw/3.3.8/lib/libglfw.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LearnVulkan_3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/build/LearnVulkan_3.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DD6F725B113B4825BD3A45DE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SYMROOT = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/build";
+			};
+			name = RelWithDebInfo;
+		};
+		EEE9E34DB2A34A53B70FF521 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SYMROOT = "/Users/bianchenyu/C++/LearnVulkan/LearnVulkan_3/build";
+			};
+			name = MinSizeRel;
+		};
+		FD984C1AFE0E42E6A3A7BD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1108823EA3294855AC4B19A0 /* Build configuration list for PBXProject "LearnVulkan_3" */ = {
+		2B78081A31AD4132A3986385 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB0043F20AF24E25A38924A8 /* Debug */,
-				39589EA4610F40AD8D27E685 /* Release */,
-				288F8045E85F44BAA075C48F /* MinSizeRel */,
-				A6125A4310C1410F8BDFAA76 /* RelWithDebInfo */,
+				FD984C1AFE0E42E6A3A7BD60 /* Debug */,
+				A958B20AC5684C0EBFBCC700 /* Release */,
+				2D758067143048B3A17F7E73 /* MinSizeRel */,
+				78F01B5E6CA945B9BF7FB337 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		1D94707D68BB46D8B348E424 /* Build configuration list for PBXNativeTarget "LearnVulkan_3" */ = {
+		2C4B51CB21324371BCD83AA5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A15CF3BF5EAD44B3AF7AD99A /* Debug */,
-				9D52C8A04AD5400E944DE260 /* Release */,
-				A5F005468D8543FA8CEF38E8 /* MinSizeRel */,
-				EB18AD5488734B1ABDF2663C /* RelWithDebInfo */,
+				77027AA601264AFDA54B5BD4 /* Debug */,
+				779E1A070D714AEF8626D414 /* Release */,
+				9798D924F93A4C0EBCE5F3CF /* MinSizeRel */,
+				843B881DE7EC4F28BBCC08AC /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		3C6C6038B0744C3E9B60AC37 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		6F6D230DAF2942A3A830E8B0 /* Build configuration list for PBXNativeTarget "LearnVulkan_3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37CD078FF6B04934AE462A2E /* Debug */,
-				B800A47D4F7E47DCB48ED8EA /* Release */,
-				C6CAE162983F4945AD6734F6 /* MinSizeRel */,
-				F8315BB6C19F4C59B346DE91 /* RelWithDebInfo */,
+				804B9B8E86E64130B01BEF39 /* Debug */,
+				8B0D1862FF8A42FDB6B7E2C7 /* Release */,
+				C8E9B3895E754F4F801A948D /* MinSizeRel */,
+				4F569E6E6BAE46888C58F6D0 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9608C0E6D58F43F4899FC0BA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		E9F7DDDD55464A9786E27D02 /* Build configuration list for PBXProject "LearnVulkan_3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51E5FE4F4C9241D5B510FED2 /* Debug */,
-				7EF7C4E3DC4D4FE394506036 /* Release */,
-				3AFB2C54743A4485BE26C5F8 /* MinSizeRel */,
-				97AE9D295BD44D7CAA6A2F98 /* RelWithDebInfo */,
+				234E94E02F9B48E2854E0E9C /* Debug */,
+				C7D58FD65DBD49E1A4EEDA9B /* Release */,
+				EEE9E34DB2A34A53B70FF521 /* MinSizeRel */,
+				DD6F725B113B4825BD3A45DE /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 578F5A71DF0D4B3BBF8AB41A /* Project object */;
+	rootObject = 1B7CFA5400D1469988CC3986 /* Project object */;
 }
