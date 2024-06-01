@@ -4,3 +4,7 @@
 */cmake_install.cmake
 */CMakeScripts
 */CMakeFiles
+*.xcuserstate
+*.pbxproj
+*.xcbkplist
+*.plist
